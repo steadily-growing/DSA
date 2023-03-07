@@ -24,4 +24,21 @@ for our example above the index for coke is 0 and that of sprite is 2
 - we measure the speed of code or code efficiency by how many steps it takes not by how much time it takes
 this is because the time that a piece of code may take to complete may differ base oon the type of
 hardware it runs on
-- also, the speed of an operation can be referred to as th time complexity, the effeciency, performance or runtime#
+- also, the speed of an operation can be referred to as the time complexity, the effeciency, performance or runtime 
+
+## Operations further explained 
+### Read :
+This operations finds an element or a value at a specific index or adresses it is the fastest operation because it looks for the element in one step by jumping to any index or address. PS: IT'S LIKE YOU READ FROM AN INDEX
+
+### Search :
+The searcch operation looks for a value at what index. the key for looking for the element is the element itself and that is what distinguishes the read operation from the search operation. PS: YOU PROVIDE A VALUE AND RETURN IT'S INDEX. 
+### nb:
+- Looping through cells one at a time is what is termed as Linear search
+- for N cells in an array the maximum number of steps linear search will take is N steps, if the size of the array is 5 the maximum number of steps linear search will take is 5 steps
+
+### Insertion:
+With this operation it takes just one step when the element is at the being inserted at the end of the array
+But when an element is being inserted at the beginning or middle of the array, we need to shift cells for that to happen the worst case scenario for an insertion to happen is when an element is being inserted at the beginning of a cell. this will take N + 1 steps because the shifting of the cells takes steps and the actual insertion takes another step
+
+### Deletion:
+with  deletion the maximum number of steps it will take for N array is  N steps if you have an array of 5 elements and you delete the element at index 0, the first step is the deletion and the next steps are the shifting of the cells to fill the space. Hence, for an array of 5 cells the number of steps it will take when a deletion is made at index 0 is 5
