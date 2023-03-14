@@ -55,3 +55,4 @@ Sets are different type of data structure. With Sets you cannot have duplicate v
     This sorta brings the different between the array and the set. Every insertion in a set requires a search. This is to check for duplicates. 
     - With insertions for sets at the best case scenario, a search of N steps is conducted if there no duplicates then the actual insertion will be made at the end of the set which makes the steps for the best case scenrion N+1 and in comparison to arrays that of an array is just one step.
     - When the cell is being inserted at the beginning of the set the first thing to do is to search for duplicates which is N steps, shift the cell N steps again then the actual insertion making it 2N + 1 as compared to the array which is N + 1 steps
+   
