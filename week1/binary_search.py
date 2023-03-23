@@ -2,7 +2,7 @@ array = [3, 5, 6, 8, 12, 19, 23, 27, 37, 45, 600]
 search_value = int(input("What number are you looking for? "))
 
 
-def binary_search(array, n):
+def binary_search(array, search_value):
   start = 0
   end = len(array) - 1
 
