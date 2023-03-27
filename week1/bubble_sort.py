@@ -9,3 +9,5 @@ def bubble_sort(list):
                 sorted = False
                 unsorted_until_index -= 1
     return list
+
+# arranging the numbers in descending order
