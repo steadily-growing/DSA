@@ -19,6 +19,7 @@ def linear_search(array, search_value):
     index += 1
   # We return None if we do not find the value within the array:
   return None
+  
 
 
 result = linear_search(array, search_value)
