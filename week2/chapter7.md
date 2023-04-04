@@ -1,0 +1,2 @@
+## Hash Tables:
+   in python a hash table is also known as a dictionary. Dictionaries have a super power of fast reading. A dictionary is a list of paired values the first term in each pair is called the key and the other pair ehich is the second is called a value 
