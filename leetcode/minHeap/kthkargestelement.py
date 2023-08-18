@@ -3,10 +3,9 @@ class Solution:
         nums = [-n for n in nums]
         heapq.heapify(nums)
 
-        res = 0
 
-        while k:
+        for i in range(k):
             res = heapq.heappop(nums)
-            k-=1
+        
     
         return -res
