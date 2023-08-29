@@ -9,7 +9,42 @@ class Solution:
             count +=(1 if i==res else -1)
         return res
     
-    
+#this solution used O(n) space
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        """
+        {3,2,3}
+        {3:2, 2:1}
+        return the index with the max value
+        [3,2,3]
+
+        """
+
+        majority_map = {}
+
+        for num in nums:
+            if num in majority_map:
+                majority_map[num] +=1
+            else:
+                majority_map[num] = 1
+        
+
+        #find the majority_element
+        max_counter = 0
+        max_element = None
+
+        for element, counter in majority_map.items():
+            if counter > max_counter:
+                max_counter = counter
+                max_element = element
+        return max_element
+
+
+
+      
+
+      
+      
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         """
