@@ -34,4 +34,4 @@ class Solution:
         if s[l].lower()  != s[r].lower():
             return False
 
-    return True
+    return Truead
